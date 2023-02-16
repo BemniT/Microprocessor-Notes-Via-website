@@ -1,0 +1,145 @@
+*{
+	padding : 0px;
+	margin : 0px;
+}
+.header{
+  width: 100%;
+  height: 70px;
+  background: #f3f6f4;
+}
+.header h2{
+	font-family:cursive ;
+	font-size: 35px;
+    left: 40%;
+	position: absolute;
+	text-align: center;
+}
+.main{
+	margin-left: 270px;
+	margin-top: 30px;
+	width: 80%;
+	height: 100%;
+	background:;
+}
+.main h2{
+	font-family: cursive;
+	font-style: orange;
+	text-align: center;
+	border-bottom: 1px solid;
+}
+.main p{
+    font-family: cursive;
+    font-size: 15px;
+}
+.define{
+	 font-family: cursive;
+    font-size: 15px;
+}
+.menu{
+    background:green;
+    position: fixed;
+    float: left;
+    height: 100%;
+    width: 260px;
+    margin-left: -270px;
+    margin-top: -135%;
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+.menu a:link{
+	color: black;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+.menu a:active{
+	color:blanchedalmond;
+}
+.background{
+	height: 110%;
+	width: 260px;
+	background:#f3f6f4;
+	position: absolute;
+}
+.background p{
+	margin-top: 30%;
+	font-family: cursive;
+	font-size: 20px;
+	text-align: center;
+}
+.background h5{
+	margin-top: 190%;
+	font-family: cursive;
+}
+.microo{
+	font-family: arial;
+	font-size: 25px;
+	width: 240px;
+	height: 50px;
+	background:  #eeeeee;
+	position: absolute;
+	border-left: 3px solid #20124d;
+	position: absolute;
+	top:30%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.microo:hover{
+	background: rgba(0, 0, 0, 0.2);
+	border-left: 4px solid rgba(0, 0, 0, 0.4) ;
+	transition: 0.7s ease;
+}
+.microo a{
+	font:white;
+	font-family: arial;
+}
+.vacuum{
+	font-family: arial;
+	font-size: 25px;
+	width: 240px;
+	height: 50px;
+	background: #eeeeee ;
+	position: absolute;
+	border-left: 3px solid #20124d;
+	top:40%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.vacuum:hover{
+	background: rgba(0, 0, 0, 0.2);
+	border-left: 4px solid rgba(0, 0, 0, 0.3) ;
+	transition: 0.7s ease;
+}
+.evolve{
+	font-family: arial;
+	font-size: 25px;
+	width: 240px;
+	height: 50px;
+	position: absolute;
+	background: #eeeeee ;
+	border-left: 3px solid #20124d;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.evolve:hover{
+	background: rgba(0, 0, 0, 0.2);
+	border-left: 4px solid rgba(0, 0, 0, 0.3) ;
+	transition: 0.7s ease;
+}
+.arm{
+	font-family: arial;
+	font-size: 25px;
+	width: 240px;
+	height: 50px;
+	background: #eeeeee ;
+	position: absolute;
+	border-left: 3px solid #20124d;
+	top:60%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.arm:hover{
+	background: rgba(0, 0, 0, 0.2);
+	border-left: 4px solid rgba(0, 0, 0, 0.3) ;
+	transition: 0.7s ease;
+}
